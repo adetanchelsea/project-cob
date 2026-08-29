@@ -152,7 +152,7 @@ This allows a data workload to compose the infrastructure required for analytics
 
 The architecture diagram shows how engineering teams consume COB capabilities and how those capabilities provision AWS infrastructure.
 
-![COB Architecture Diagram](docs/architecture.png)
+![COB Architecture Diagram](images/architecture_diagram.png)
 
 ---
 
