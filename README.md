@@ -16,9 +16,7 @@ A typical request may require:
 - RDS databases
 - Supporting AWS services
 
-As more teams implement infrastructure independently, inconsistencies can develop.
-
-For example:
+As more teams implement infrastructure independently, inconsistencies can develop. For example:
 
 - S3 buckets may use different security configurations.
 - IAM policies may be inconsistent.
