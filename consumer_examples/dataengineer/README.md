@@ -78,8 +78,6 @@ COB also exposes these outputs to Chelsea:
 
 These outputs give Chelsea the information she needs to reference the infrastructure from other parts of her data platform.
 
-[Screenshots]
-
 ## What This Solves for Chelsea
 
 Before COB, Chelsea would need to spend time designing and provisioning the infrastructure herself or wait for Platform Engineering to do it.
