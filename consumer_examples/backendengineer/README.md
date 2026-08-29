@@ -90,8 +90,6 @@ COB also exposes useful outputs to Kate:
 
 These outputs give Kate the information she needs to reference the infrastructure from other parts of her backend application or deployment workflow.
 
-[screenshots]
-
 ## What This Solves for Kate
 
 Before COB, Kate would need to spend time designing and provisioning the infrastructure herself or wait for Platform Engineering to do it.
