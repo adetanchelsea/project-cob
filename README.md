@@ -693,14 +693,11 @@ Current limitations include:
 - Consumer onboarding is currently Terraform-based.
 - CI/CD automation for infrastructure changes is not yet implemented as part of COB.
 - Centralised infrastructure monitoring and observability are not yet provided as COB capabilities.
-
 These limitations do not prevent COB from demonstrating the core platform model required for the first version.
 
 ## Project Outcome
 
-COB provides a foundation for standardised AWS infrastructure provisioning across Beejan Technologies.
-
-The platform demonstrates how reusable Terraform capabilities can:
+COB provides a foundation for standardised AWS infrastructure provisioning across Beejan Technologies. The platform demonstrates how reusable Terraform capabilities can:
 
 - Reduce repeated infrastructure implementation
 - Establish consistent infrastructure standards
@@ -715,32 +712,10 @@ The objective is to demonstrate that infrastructure can be designed as a reusabl
 
 The following resources were useful for understanding Terraform, AWS provider configuration, modules, state management and the Terraform workflow used in COB.
 
-### Terraform
-
-- Terraform Documentation — General Terraform documentation and language reference.
-- Terraform CLI Documentation — Reference for Terraform CLI commands.
-- Terraform Init — Initialising Terraform working directories, providers, modules and backends.
-- Terraform Validate — Validating Terraform configuration.
-- Terraform Plan — Reviewing proposed infrastructure changes.
-- Terraform Apply — Applying infrastructure changes.
-- Terraform Modules — Understanding reusable Terraform modules.
-- Terraform Module Tutorials — Practical examples of building and consuming modules.
-- Terraform Input Variables — Defining and using configurable inputs.
-- Terraform Outputs — Exposing values from Terraform configurations.
-- Terraform State — Understanding Terraform state.
-- Terraform S3 Backend — Configuring Amazon S3 for Terraform remote state.
-
-### AWS Provider
-
-- Terraform AWS Provider — Official Terraform provider for AWS resources.
-- AWS Provider Documentation — Resource and data source reference for AWS infrastructure.
-
-### AWS Services
-
-- Amazon VPC Documentation — AWS networking and VPC concepts.
-- Amazon S3 Documentation — Object storage, encryption, versioning and bucket security.
-- Amazon EC2 Documentation — AWS virtual machine infrastructure.
-- Amazon ECS Documentation — Containerised workloads on AWS.
-- Amazon RDS Documentation — Managed relational databases.
-- AWS Glue Documentation — AWS Glue and the Data Catalog.
-- Amazon Athena Documentation — Querying data in Amazon S3 using SQL.
+- [Terraform Modules](https://developer.hashicorp.com/terraform/tutorials/modules)
+- [Terraform Module Tutorials](https://developer.hashicorp.com/terraform/tutorials/modules/module-create)
+- [Terraform Input Variables](https://developer.hashicorp.com/terraform/language/values/variables)
+- [Terraform Outputs](https://developer.hashicorp.com/terraform/language/values/outputs)
+- [Terraform State](https://developer.hashicorp.com/terraform/language/state)
+- [Terraform S3 Backend](https://developer.hashicorp.com/terraform/language/backend/s3)
+- [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
